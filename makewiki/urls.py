@@ -27,7 +27,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # Wiki App
-    path('', include('wiki.urls')),
+    path('/', include('wiki.urls')),
 
     #Django Authentication
     path('accounts/', include('django.contrib.auth.urls')),
